@@ -45,4 +45,4 @@ pytest -q
 
 ## 相关仓库
 
-本仓库为独立项目，与其他量化研究仓库并列维护。学习路线图见 [quant-research-notes](../quant-research-notes)（本地工作区）或你的 GitHub `quant-research-notes` 仓库。
+本仓库为独立项目，与其他量化研究仓库并列维护。学习路线图见 [quant-research-notes](../quant-research-notes)（本地工作区）或维护 GitHub `quant-research-notes` 仓库。
