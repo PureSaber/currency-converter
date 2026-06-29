@@ -1,0 +1,23 @@
+# 默认基准货币（用于展示或 API 请求）
+default_base: USD
+
+# 支持的货币代码（ISO 4217）
+supported_currencies:
+  - USD
+  - EUR
+  - GBP
+  - CNY
+  - JPY
+
+# 汇率源配置
+rates:
+  provider: forex           # forex | static | api
+  static_rates:             # provider=static 时使用，相对 default_base 的汇率
+    USD: 1.0
+    EUR: 0.92
+    GBP: 0.79
+    CNY: 7.24
+    JPY: 149.5
+  api:
+    base_url: "https://api.exchangerate-api.com/v4/latest"
+    timeout_seconds: 10
