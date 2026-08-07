@@ -7,6 +7,7 @@
 from abc import ABC, abstractmethod
 
 from forex_python.converter import CurrencyRates
+
 # forex-python 自带异常；映射为本项目的 RateNotAvailableError，CLI 层统一处理
 from forex_python.converter import RatesNotAvailableError as ForexRatesNotAvailableError
 
