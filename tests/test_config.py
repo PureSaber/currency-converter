@@ -1,6 +1,6 @@
 """Tests for configuration loading."""
 
-from currency_converter.config import AppConfig, default_config_path, load_config
+from currency_converter.config import AppConfig, default_config_path
 
 
 def test_load_default_config(default_config: AppConfig) -> None:
